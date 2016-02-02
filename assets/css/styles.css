@@ -5,6 +5,7 @@
 body{
     margin-left:10%;
     margin-right:10%;
+    padding-bottom:90px;
 }
 
 .body-container{
@@ -116,12 +117,24 @@ p {
 /* ------FOOTER------- */
 
 footer{
+    position: fixed;
+    bottom:0px;
+    width:80%;
+    height:70px;
+
+    font-size: .5em;
+    padding-top: 7px;
+    padding-bottom: 30px;
+}
+
+.footer-container{
+    background-color: rgb(230,230,230);
+    margin:0;
+    padding: 10px;
+    padding-bottom: 20px;
     border-top-style:solid;
     border-top-width: medium;
     border-top-color: rgb(130,130,130);
-    font-size: .5em;
-    padding-top: 7px;
-    padding-bottom: 10px;
 }
 
 footer ul {
@@ -129,6 +142,7 @@ footer ul {
     width:70%;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 footer ul li {
