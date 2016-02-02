@@ -9,6 +9,7 @@ body{
 
 .body-container{
     background-color:rgb(230,230,230);
+    padding-bottom:4px;
 }
 
 header {
@@ -75,10 +76,60 @@ header aside{
 
 article ol {
     color:rgb(130,130,130);
+
 }
 
+article ol li {
+    padding-bottom: 7px;
+}
 
+.article-content{
+    color:black;
+}
+
+.article-link {
+    font-size:.75em;
+}
+
+a:link{
+  text-decoration: none;
+  color:rgb(130,130,130);
+}
+
+a:visited{
+  color:rgb(130,130,130);
+}
 
 article ol li img {
     width:12px;
+}
+
+.article-content-2{
+    font-size:.75em;
+    padding-left:18px;
+}
+
+p {
+    padding-left:58px;
+}
+
+/* ------FOOTER------- */
+
+footer{
+    border-top-style:solid;
+    border-top-width: medium;
+    border-top-color: rgb(130,130,130);
+    font-size: .5em;
+}
+
+footer ul {
+    margin:auto 0;
+}
+
+footer ul li {
+    display: inline-block;
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color:rgb(130,130,130);
+    padding-right:5px;
 }
