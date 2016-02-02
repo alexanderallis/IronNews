@@ -120,10 +120,15 @@ footer{
     border-top-width: medium;
     border-top-color: rgb(130,130,130);
     font-size: .5em;
+    padding-top: 7px;
+    padding-bottom: 10px;
 }
 
 footer ul {
-    margin:auto 0;
+    border-style: none;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer ul li {
@@ -132,4 +137,38 @@ footer ul li {
     border-right-width: 2px;
     border-right-color:rgb(130,130,130);
     padding-right:5px;
+}
+
+footer ul li:last-child{
+    border-style: none;
+}
+
+/*--------SEARCH BAR---------*/
+
+.search-container {
+    width:195px;
+    margin:0 auto;
+    margin-top: 20px;
+    border-style: none;
+    padding:0;
+
+}
+
+footer h2 {
+    border-style: none;
+    display:inline-block;
+    padding: 0;
+    margin: 0;
+    color: rgb(130,130,130);
+    font-weight: normal;
+}
+
+.search-box{
+    width:140px;
+    height:15px;
+    background-color:white;
+    display: inline-block;
+    margin: 0;
+    padding:0;
+    margin-bottom: -4px;
 }
